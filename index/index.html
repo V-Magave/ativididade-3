@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="processaForm.php">
+        Caixa de Texto : <input type="text" name="Caixa de Texto" required><br>
+        Caixa de Texto de senha : <input type="password" name="senha" required><br>
+    </form>
+
+    Caixa de texto com várias linhas: <br>
+    <textarea name="Caixa de texto com varias linhas" rows="5" cols="30">
+
+    </textarea>
+    <br> 
+
+    Botões de Rádio: <input type="radio" name="sexo" value="masculino"> Masculino
+    <input type="radio" name="sexo" value="feminino"> Feminino<br>
+    <br>
+
+    Quais letras abaixo são vogais? <br>
+    <input type="checkbox" name="carros" value="carros"> A
+    <input type="checkbox" name="carros" value="carros"> B
+    <input type="checkbox" name="carros" value="carros"> C
+    <input type="checkbox" name="carros" value="carros"> D
+    <input type="checkbox" name="carros" value="carros"> E
+    <input type="checkbox" name="carros" value="carros"> F
+
+    <br>
+    <br>
+    Botão de Envio(Salvar/ok): <button type="button" action="onclick()">Salvar</button> 
+    <br>
+    botão de Limpeza: <button type="reset">Limpar</button>
+    <br>
+
+    <br>
+    <div>
+        <label for="carros">Selecione um carro:</label>
+        <select id="carros" name="carros">
+            <option value="1">Celta</option>
+            <option value="2">Corsa</option>
+            <option value="3">Uno Mille</option>
+            <option value="4">Honda Fit</option>
+            <option value="5">Honda Civic</option>
+        </select>
+
+        <br><br>
+
+        <label for="carros2">Selecione outro carro:</label>
+       <select>
+            <option>celta</option> 
+            <option>corsa</option>
+            <option>uno mille</option>
+            <option>honda fit</option>
+            <option>honda civic</option>
+        </select>
+
+    </div>
+
+   
+</body>
+
+</html>
